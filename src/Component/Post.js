@@ -9,7 +9,7 @@ export default function Post() {
     const insertData = (e) => {
         e.preventDefault()
 
-        axios.post("http://localhost:8080/submit", { name, email, age })
+        axios.post("https://practical-15-backend.onrender.com/submit", { name, email, age })
         .then (res => {
             alert(res.data)
         })
