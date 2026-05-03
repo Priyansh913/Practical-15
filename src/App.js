@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Get from './Component/Get';
 import Post from './Component/Post';
