@@ -6,7 +6,7 @@ function Get() {
     const [status, setStatus] = useState(false)
 
     useEffect (() => {
-        axios.get("http://localhost:8080/fetchdata")
+        axios.get("https://practical-15-backend.onrender.com/fetchdata")
         .then((res) => {
             console.log(res)
             setData(res.data)
